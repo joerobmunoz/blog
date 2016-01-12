@@ -1,0 +1,11 @@
+extends base
+
+block content
+  if page.title == 'blog'
+    block blog
+  else
+    article.post
+      h2.post__title= page.title
+
+block blog
+  div tet test test test
