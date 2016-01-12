@@ -1,5 +1,7 @@
 github: https://github.com/joerobmunoz
 
+blog: blog # name of the blog route
+
 math: katex # options: katex, mathjax, false
 
 cdn:

@@ -1,9 +1,6 @@
-extends page
-
-block blog
-  ul
-    each post in page.posts.toArray()
-      li
-        article
-          h2
-            a(href=url_for(post.path))= post.title
+ul
+  each post in site.posts.toArray()
+    li
+      article
+        h2
+          a(href=url_for(post.path))= post.title
